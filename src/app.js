@@ -108,9 +108,9 @@ app.get("*", (req, res) => {
   });
 });
 
-// app.listen(3000, () => {
-//   console.log("Server is up and running!");
-//   console.log("Yep");
-// });
+app.listen(3000, () => {
+  console.log("Server is up and running!");
+  console.log("Yep");
+});
 
 //extending to include also the hbs extension ---> nodemon src/app.js -e .js,.hbs
